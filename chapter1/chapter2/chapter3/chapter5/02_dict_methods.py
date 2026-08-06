@@ -4,7 +4,7 @@ dict={"this":"a keyword in c++",
       "mylist":[1, 3, 4]
     
 }
-dict.update({"sinchu":"good girl","mylist":[3, 5, 7]})
+dict.update({"sinchu":"good girl","mylist":[3, 5, 7]}) #this will update the existing dictionary and also add the dictionary
 print(dict)
 #for a, b in dict.items():
      #print(a,":", b)

@@ -4,5 +4,8 @@ dict={"this":"a keyword in c++",
       "mylist":[1, 3, 4]
     
 }
-key = input("Enter the key\n")
-print("the value for your corresponding key is :", dict.get(key))
+key = input("Enter the key:\n")
+if(dict.get(key)==None):
+    print("Value not found")
+else:
+    print("the value for your corresponding key is :", dict.get(key))
